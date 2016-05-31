@@ -1,8 +1,8 @@
-package main
+package pkginit
 
 import (
-	"fmt"
-	"runtime"
+       "fmt"
+       "runtime"
 )
 
 func init() {
