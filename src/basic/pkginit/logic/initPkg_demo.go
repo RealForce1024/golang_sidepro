@@ -1,18 +1,18 @@
-package pkginit
+package main
 
 import (
-       "fmt"
-       "runtime"
+	"fmt"
+	"runtime"
 )
 
 func init() {
-	fmt.Printf("Map: %v\n", m)
-	info = fmt.Sprintf("OS:%s,Arch:%s", runtime.GOOS, runtime.GOARCH)
+	fmt.Printf("Map:%v\n", m)
+	info = fmt.Sprintf("Osinfo:%s,archInfo:%s\n", runtime.GOOS, runtime.GOARCH)
 }
 
-var m map[int]string = map[int]string{1: "A", 2: "B"}
+var m map[int]string = map[int]string{1: "a", 2: "b", 3: "c"}
 var info string
 
 func main() {
-	fmt.Println(info)
+	fmt.Printf("info:%s", info)
 }
