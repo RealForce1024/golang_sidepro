@@ -1,7 +1,7 @@
 package main
 
 import(
-	"fmt" #notice _ not used
+	"fmt" //notice _ not used
 	"runtime"
 )
 
